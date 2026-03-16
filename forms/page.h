@@ -15,6 +15,7 @@ public:
 
 // create page
 void createPage( Page& page, int nBits, const std::string& name );
+void setStringAttributes();
 
 protected:
 const std::string& name;
